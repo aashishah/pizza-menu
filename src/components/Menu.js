@@ -49,6 +49,10 @@ export default function Menu() {
   return (
     <main className="menu">
       <h2>Our Menu</h2>
+      <p>
+        Authenic Italian Cuisine. 6 creative dishes to choose from. All from our
+        stone oven, all organic, and all delicious.
+      </p>
       <ul className="pizzas">
         {pizzaData.map((pizza) => (
           <Pizza pizzaInfo={pizza} key={pizza.name}></Pizza>
